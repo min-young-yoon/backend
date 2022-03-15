@@ -23,6 +23,7 @@ public class BackFrontConnectController {
 		   list.add(new BoardDto("3", "writer3","title3"));
 		   list.add(new BoardDto("4", "writer4","title4"));
 		   list.add(new BoardDto("5", "writer5","title5"));
+		   System.out.println("test");
 		   
 		   return list; 
 	   }
